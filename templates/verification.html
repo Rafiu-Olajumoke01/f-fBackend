@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 5rem;
+            color: rgb(250, 4, 45);
+            font-style: italic;
+        }
+
+        h3{
+            color: rgb(250, 4, 45);
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Verification Email</h1>
+
+    <div>
+        Dear{{name}},
+
+        <h3> welcome to FOOD&FARAWAY</h3>
+
+        <p>Your account has been created successfully. Please verify your email
+            address by clicking the link below.</p>
+
+        <a href="{{ verification_link }}">Verify Your Email</a>
+
+        <br><br>
+        Thank You for using our platform!
+        <br><br>
+        Regards, <br>
+        admin FOOD&FARAWAY
+
+    </div>
+</body>
+
+</html>
